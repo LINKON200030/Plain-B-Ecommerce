@@ -1,0 +1,22 @@
+/* Custom styles for the image gallery */
+.image-gallery {
+    border: 1px solid #ddd; /* Add a border around the gallery */
+}
+
+.image-gallery-slide img {
+    max-height: 400px; /* Limit the maximum height of the images */
+    object-fit: cover; /* Ensure images cover the container */
+}
+
+.image-gallery-thumbnails {
+    margin-top: 10px; /* Add some space between the main gallery and thumbnails */
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnail {
+    border: 2px solid #ddd; /* Add a border to each thumbnail */
+    margin-right: 5px; /* Add some space between thumbnails */
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnail.active {
+    border-color: #3490dc; /* Highlight the active thumbnail with a different border color */
+}
